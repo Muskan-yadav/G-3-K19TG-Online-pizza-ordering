@@ -1,1 +1,4 @@
-# G-3-K19TG-Online-pizza-ordering
+# ONLINE PIZZA ORDERING-Project
+Online Pizza Ordering Website - JavaScript and Google Map API
+
+
