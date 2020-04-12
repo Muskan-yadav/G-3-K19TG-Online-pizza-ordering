@@ -1,0 +1,32 @@
+/* Navbar */
+.navbar{
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+.navbar-brand{
+    height: 70px;
+    width: 70px;
+    font-size: 28px;
+    margin:0px;
+    margin-left: 30px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-link{
+    margin:0 20px;
+    font-size: 20px;
+    font-family: "Merrriweather", sans-serif;
+}
+
+@media (max-width: 767px)
+{
+    .nav-link{
+        margin-left: 30px;
+        width: auto;
+    }
+}

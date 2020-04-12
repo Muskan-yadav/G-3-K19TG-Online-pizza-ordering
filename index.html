@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> HOME-la pizza</title>
+    <link rel="icon" href="img/pizza3.jpg">
+    
+    <!-- Bootstrap and Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo:900|Fjalla+One|Lato|Merriweather|Ultra" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="CSS/nav.css"> 
+    <link rel="stylesheet" href="CSS/style.css"> 
+    <link rel="stylesheet" href="CSS/footer.css"> 
+</head>
+<body>
+  
+  <!--  NAVBAR -->
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <img class="navbar-brand" src="img/logo.jpg" href="index.html" alt="La Pizza">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="varieties.html">Varieties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+         <li class="nav-item">
+                <a class="nav-link" href="order here.html">Order Here</a>
+              </li>
+            
+        </ul>
+    </div>
+  </nav>
+  
+  <!-- Image Slider  -->
+
+  <div class="wrapper">
+    <div id="left-arrow" class="arrow"></div>
+
+    <div class="slider" id='slider'>
+      
+      <div class="slide slide-1">
+        <div class="slide-content">
+          <span>TIME TO TASTE IT. 
+  </span>
+          <p>TASTE GOOD,TASTE HEALTHY</p>
+        </div>
+      </div>
+
+      <div class="slide slide-2">
+        <div class="slide-content">
+          <span>DELIVERY ON TIME</span>
+        </div>
+      </div>
+
+      <div class="slide slide-3">
+        <div class="slide-content">
+          <span>ORDER ANYTIME,ANYWHERE</span>
+        </div>
+      </div>
+
+      <div class="slide slide-4">
+        <div class="slide-content">
+          <p>TASTE AND FEEL UPTO DEEP</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="right-arrow" class="arrow"></div>
+  </div>
+
+  <!-- Grid -->
+  
+  <div id="grid">
+    <div class="grid-head">
+      <h1>Welcome to LA PIZZA</h1>
+      <p>
+       The reason for pizza spread is that you can add anything to it anytime of the day and anywhere.
+      </p>
+      <div class="container">
+        <hr/> 
+      </div>
+
+  <div id="form">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="img/form-pic.jpg" alt="Form Picture">
+        </div>
+        <div class="col" id='register'>
+          <h2>ORDER HERE</h2>
+          <form>
+            <div class="row form-group">
+              <div class="col">
+                <label for="inputName1">First Name</label>
+                <input type="text" class="form-control" id="inputName1" placeholder="First Name">
+            </div>
+            <div class="form-group">
+              <label for="inputEmail">Email</label>
+              <input type="text" class="form-control" id="inputEmail" placeholder="Enter Your Email Id">
+            </div>
+            <div class="form-group">
+              <label for="inputContact">Contact</label>
+              <input type="text" class="form-control" id="inputContact" placeholder="Enter Your Phone Number">
+            </div>
+              <div class="form-group">
+              <label for="inputContact">Address</label>
+              <input type="text" class="form-control" id="inputContact" placeholder="Enter Your Address">
+            </div>
+            <div class="form-group">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">order now</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">order later</label>
+              </div>
+            </div>
+            <button id='btn-form' type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer class="pt-4 bg-light">
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook fa-3x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter fa-3x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus fa-3x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-sc mx-1">
+          <i class="fab fa-snapchat fa-3x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-yt mx-1">
+          <i class="fab fa-youtube fa-3x"> </i>
+        </a>
+      </li>
+    </ul>
+
+    <div class="py-2 text-center"><i class="far fa-copyright"></i> 2020 Copyright :
+      <a href="index.html"> La Pizza </a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Main Script -->
+  <script src='Scripts/main.js'></script>
+</body>
+</html>

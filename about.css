@@ -1,0 +1,97 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+/* About Pizza */
+#about{
+    padding: 40px; 
+}
+#about img{
+    height:400px ;
+    width:600px; ;
+}
+#heading{
+    padding-bottom: 30px;
+    text-align: center;
+    line-height: 0.6;
+}
+#heading p{ 
+    font-size:20px;
+    color:rgb(120, 120, 120);
+}
+#heading span {
+    display: inline-block;
+    position: relative;  
+}
+#heading span:before, #heading span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px red;
+    border-top: 1px red;
+    top: 45%;
+    width: 250px;
+}
+#heading span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+#heading span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+/* Team */
+#team{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image:url(../img/team-bg.jpg); 
+}
+#team h1{
+    padding-bottom: 40px;
+    text-align: center;
+}
+#team img{
+    height: 200px;
+    width: 200px;
+    border-radius:50%; 
+    filter:grayscale(0.7);
+    transition:all ease-in-out 0.5s;
+    margin-left: 25px;   
+}
+#team img:hover{
+    filter:grayscale(0);
+    transform: scale(1.2);
+}
+#names h3, #names p{
+    text-align: center; 
+    margin-bottom: 0px;
+}
+
+/* Manager*/
+#trainer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align:center;
+}
+#manager i{
+    padding-top: 35px;
+c    padding-bottom: 10px;
+    color: orangered;
+}
+#manager h1{
+    color: orangered;
+    font-size: 50px;
+}
+#manager h3{
+    color: gray;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+#manager p{
+    font-size: 23px;
+}
+

@@ -1,0 +1,85 @@
+<html>
+<head></head>
+<body bgColor="gray"><center>
+<h1>Welcome To Pizza Corner !!</h1>
+<img src="img/pizza2.jpg" width="400" height="400"/><br><br>
+</center>
+</body>
+Pz.html
+<html>
+<head></head>
+<body bgColor="magenta"><center>
+<h1 style="color:maroon;">Please Fill your Personal Details And Place your Order</h1><br>
+<h2 style="color:blue;">Thank You !!</h2><br>
+<h3 style="color:pink;">Delivery within 3 Hours</h3><br>
+<img src="img/smiley.jpg"/>
+</center>
+</body>
+
+Pizza.html
+
+<html>
+<head>
+<title>
+Pizza
+</title>
+<script type="text/javascript" src="billing.js">
+</script>
+<style>
+b{
+font-size:20px;
+color:red;
+font-family:times new roman;
+}
+input{color:brown;
+background-color:pink;}
+p{color:soli-black;}
+</style>
+
+</head>
+<body bgcolor="magneta">
+<table width="1300"><tr><td width="700">
+<h1 style="color:#01123;"><center><font color="white">Pizza Corner</font></center></h1>
+<hr align="left">
+<h2 style="color:blue;">Pizza Order Form</h2>
+<form >
+ <p><label>Customer name: <input  id="a" required type="text"></label></p>
+ <p><label>Telephone:          <input type="number" id="b" ></label></p>
+ <p><label>E-mail address:   <input type="email" id="c"></label></p>
+ <fieldset>
+  <legend style="color:blue"><h2> Pizza Size</h2> </legend>
+  <p><label> <input type="radio" name=size  id="d" style="color:blue" value="small"> Small </label></p>
+  <p><label> <input type="radio" name=size id="e" value="medium"> Medium </label></p>
+  <p><label> <input type="radio" name=size  id="f" value="large"> Large </label></p>
+ </fieldset>
+ <fieldset width="500">
+  <legend style="color:blue"> <h2>Pizza Toppings</h2> </legend>
+  <p><label> <input type="checkbox" name="a" id="g" value="Bacon"> Bacon </label></p>
+  <p><label> <input type="checkbox" name="b" id="h" value="Extra Cheese"> Extra Cheese </label></p>
+  <p><label> <input type="checkbox" name="c" id="i" value="Onion"> Onion </label></p>
+  <p><label> <input type="checkbox" name="d" id="j" value="Mushroom"> Mushroom </label></p>
+ </fieldset>
+ <p><label>Preferred delivery time: <input type="time" min="11:00" max="21:00" step="60"></label></p>
+ <p><label>Delivery instructions:     <textarea maxlength=10></textarea></label></p>
+ <p><label>No. Of Pieces :             <input type="number" id="k"/></p>
+<p><label>Address :             <textarea maxlength=60></textarea></label></p>
+ <p id="or"><input  type="button"  value="Process order" onClick="check();addBtn();"/>
+
+ <input  type="Reset" id="cl" value="Clear"></p>
+</td><td width="150"></td>
+<td valign="top"><h1><u><p id="z"></p></u></h1>
+<h2><p id="w"></p></h2>
+<pre><h4><p id="p1"></p></h4></pre>
+<pre><h4><p id="p2"></p></h4></pre>
+<pre><h4><p id="p3"></p></h4></pre>
+<pre><h4><p id="p4"></p></h4></pre>
+<pre><h4><p id="p5"></p></h4></pre>
+<pre><h4><p id="p6"></p></h4></pre>
+<pre><h4><p id="x"></p></h4></pre>
+<pre><a href="pz1.html"><div id="bt"></div></a></pre>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
